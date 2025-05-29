@@ -11,7 +11,7 @@ outputs:
   branch:
     value: ${{ steps.pr.outputs.branch }}
     description: プルリクエストのブランチ
-run:
+runs:
   using: composite
   steps:
     - id: pr
